@@ -1,6 +1,6 @@
 name: foo_lint
-description: Lint rule for my flutter project.
-version: 1.0.0+2
+description: Lint rules for my flutter project with multi rules for the different project types.
+version: 1.0.0+3
 repository: https://github.com/sonnts996/foo-lint
 
 environment:
