@@ -11,13 +11,22 @@ dev_dependencies:
 
 ## Use:
 
-Add this line to your analysis_options.yaml fill
+### Add this line to your analysis_options.yaml field.
 
 ```yaml
     include: package:foo_lint/default_options.yaml
 ```
 
-- Example:
+### List of Lint Options:
+
+  - package:foo_lint/default_options.yaml 
+    - Default Option
+  - package:foo_lint/unpublished_options.yaml 
+    - Without Docs linter:
+      - package_api_docs
+      - public_member_api_docs
+
+### Example:
 
 ```yaml
 # This file configures the static analysis results for your project (errors,

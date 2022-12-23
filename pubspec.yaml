@@ -1,6 +1,6 @@
 name: foo_lint
 description: Lint rule for my flutter project.
-version: 1.0.0
+version: 1.0.0+2
 repository: https://github.com/sonnts996/foo-lint
 
 environment:
