@@ -11,7 +11,7 @@ dev_dependencies:
 
 ## Use:
 
-### Add this line to your analysis_options.yaml field.
+### Add this line to your analysis_options.yaml file.
 
 ```yaml
     include: package:foo_lint/default_options.yaml
