@@ -6,7 +6,7 @@
 
 ```yaml
 dev_dependencies:
-  foo_lint: ^1.0.0
+  foo_lint: 'any'
 ```
 
 ## Use:
@@ -19,9 +19,9 @@ dev_dependencies:
 
 ### List of Lint Options:
 
-  - package:foo_lint/default_options.yaml 
+  - ``package:foo_lint/default_options.yaml``
     - Default Option
-  - package:foo_lint/unpublished_options.yaml 
+  - ``package:foo_lint/unpublished_options.yaml``
     - Without Docs linter:
       - package_api_docs
       - public_member_api_docs
