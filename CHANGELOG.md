@@ -9,3 +9,7 @@
 # 1.0.0+3
 
 - fix unpublished_options.yaml file name
+
+# 2.0.0
+
+- upgrade to flutter 3

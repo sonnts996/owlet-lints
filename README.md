@@ -1,12 +1,12 @@
 
-# FOO Link
+# Owlet Lints
 
 
 ## Import:
 
 ```yaml
 dev_dependencies:
-  foo_lint: 'any'
+  owlet_lints: 'any'
 ```
 
 ## Use:
@@ -14,14 +14,14 @@ dev_dependencies:
 ### Add this line to your ``analysis_options.yaml`` file.
 
 ```yaml
-    include: package:foo_lint/default_options.yaml
+    include: package:owlet_lints/default_options.yaml
 ```
 
 ### List of Lint Options:
 
-  - ``package:foo_lint/default_options.yaml``
+  - ``package:owlet_lints/default_options.yaml``
     - Default Option
-  - ``package:foo_lint/unpublished_options.yaml``
+  - ``package:owlet_lints/unpublished_options.yaml``
     - Without Docs linter:
       - package_api_docs
       - public_member_api_docs
@@ -42,7 +42,7 @@ dev_dependencies:
 # (the recommended set includes the core lints).
 # The core lints are also what is used by pub.dev for scoring packages.
 
-include: package:foo_lint/default_options.yaml
+include: package:owlet_lints/default_options.yaml
 
 # Uncomment the following section to specify additional rules.
 
