@@ -1,0 +1,11 @@
+include: default_options.yaml
+
+analyzer:
+  exclude:
+    - sdk/**
+    - build/**
+
+linter:
+  rules:
+    - package_api_docs
+    - public_member_api_docs

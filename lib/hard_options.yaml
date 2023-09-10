@@ -1,0 +1,20 @@
+include: default_options.yaml
+
+analyzer:
+  exclude:
+    - sdk/**
+    - build/**
+
+linter:
+  rules:
+    - package_api_docs
+    - public_member_api_docs
+    - type_annotate_public_apis
+    - avoid_catches_without_on_clauses
+    - one_member_abstracts
+    - avoid_classes_with_only_static_members
+    - strong-mode:
+        - implicit-casts
+        - implicit-dynamic
+    - language:
+        - strict-raw-types

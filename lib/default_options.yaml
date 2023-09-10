@@ -1,17 +1,14 @@
-include: package:flutter_lints/flutter.yaml
+include: package:lints/recommended.yaml
 
 analyzer:
   exclude:
     - sdk/**
-    - test/**
     - build/**
-    - lib/**.freezed.dart
-    - lib/**.g.dart
-    - lib/**.model.g.dart
-    - lib/gen/**
  
 linter:
   rules:
+    - sort_constructors_first
+    - sort_unnamed_constructors_first
     - camel_case_types
     - camel_case_extensions
     - library_names
@@ -22,8 +19,6 @@ linter:
     - directives_ordering
     - curly_braces_in_flow_control_structures
     - slash_for_doc_comments
-    - package_api_docs
-    - public_member_api_docs
     - comment_references
     - implementation_imports
     - avoid_relative_lib_imports
@@ -67,11 +62,7 @@ linter:
     - avoid_null_checks_in_equality_operators
     - avoid_print
     - prefer_single_quotes
- 
-    #  type_annotate_public_apis: false
-    #  avoid_catches_without_on_clauses: false
-    #  one_member_abstracts: false
-    #  avoid_classes_with_only_static_members: false
+
  
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options

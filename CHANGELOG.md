@@ -13,3 +13,10 @@
 # 2.0.0
 
 - upgrade to flutter 3
+
+# 3.0.0
+
+- change default_options.yaml to common linter (old version is unpublished_options.yaml)
+- remove unpublished_options.yaml (updated to default_options.yaml)
+- add published_options.yaml (old version is default_options.yaml)
+- add hard_options.yaml

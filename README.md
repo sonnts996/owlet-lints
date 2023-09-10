@@ -21,10 +21,12 @@ dev_dependencies:
 
   - ``package:owlet_lints/default_options.yaml``
     - Default Option
-  - ``package:owlet_lints/unpublished_options.yaml``
-    - Without Docs linter:
+  - ``package:owlet_lints/published_options.yaml``
+    - With Docs linter:
       - package_api_docs
       - public_member_api_docs
+  - ``package:owlet_lints/hard_options.yaml``
+    - Harder linter's options
 
 ### Example:
 
