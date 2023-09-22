@@ -20,3 +20,7 @@
 - remove unpublished_options.yaml (updated to default_options.yaml)
 - add published_options.yaml (old version is default_options.yaml)
 - add hard_options.yaml
+
+# 3.0.0
+
+- update example/README.md
