@@ -10,3 +10,4 @@ linter:
     - package_api_docs
     - public_member_api_docs
     - type_annotate_public_apis
+    - diagnostic_describe_all_properties

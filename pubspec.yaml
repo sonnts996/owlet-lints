@@ -1,6 +1,6 @@
 name: owlet_lints
 description: Lint rules for my flutter project with multi rules for the different project types.
-version: 4.0.0
+version: 4.0.0+1
 repository: https://github.com/sonnts996/owlet-lints
 
 environment:
