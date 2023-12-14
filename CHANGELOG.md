@@ -24,3 +24,8 @@
 # 3.0.0
 
 - update example/README.md
+
+# 4.0.0
+
+- Update flutter 3 linter
+- Refactor flutter_lints

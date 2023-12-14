@@ -13,6 +13,9 @@ linter:
     - avoid_catches_without_on_clauses
     - one_member_abstracts
     - avoid_classes_with_only_static_members
+    - prefer_final_parameters
+    - type_annotate_public_apis
+    - sort_pub_dependencies
     - strong-mode:
         - implicit-casts
         - implicit-dynamic

@@ -1,6 +1,7 @@
 
 # Owlet Lints
 
+[![version](https://img.shields.io/pub/v/owlet_lints)](https://pub.dev/packages/owlet_lints) [![like](https://img.shields.io/pub/likes/owlet_lints)](https://pub.dev/packages/owlet_lints) [![issues](https://img.shields.io/github/issues/sonnts996/owlet-lints)](https://github.com/sonnts996/owlet-lints) [![license](https://img.shields.io/github/license/sonnts996/owlet-lints)](https://github.com/sonnts996/owlet-lints)
 
 ## Import:
 
