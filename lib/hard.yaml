@@ -1,4 +1,4 @@
-include: default_options.yaml
+include: default.yaml
 
 analyzer:
   exclude:
@@ -19,6 +19,7 @@ linter:
     - diagnostic_describe_all_properties
     - literal_only_boolean_expressions
     - unawaited_futures
+    - always_put_required_named_parameters_first
     - strong-mode:
         - implicit-casts
         - implicit-dynamic

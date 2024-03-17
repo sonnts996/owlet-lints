@@ -1,10 +1,10 @@
 name: owlet_lints
 description: Lint rules for my flutter project with multi rules for the different project types.
-version: 4.0.0+1
+version: 5.0.0
 repository: https://github.com/sonnts996/owlet-lints
 
 environment:
-  sdk: ^3.1.0+1
+  sdk: ">=3.1.0 <4.0.0"
 
 dependencies:
   flutter_lints: ^3.0.1

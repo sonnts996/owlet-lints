@@ -1,4 +1,4 @@
-include: default_options.yaml
+include: default.yaml
 
 analyzer:
   exclude:

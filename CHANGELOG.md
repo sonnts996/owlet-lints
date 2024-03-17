@@ -29,3 +29,10 @@
 
 - Update flutter 3 linter
 - Refactor flutter_lints
+
+# 5.0.0
+
+- Shorten the file name:
+  - default_options.yaml => default.yaml
+  - hard_options.yaml => hard.yaml
+  - published_options.yaml => published.yaml

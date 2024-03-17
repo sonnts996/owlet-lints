@@ -8,7 +8,6 @@ analyzer:
 linter:
   rules:
     - always_declare_return_types
-    - always_put_required_named_parameters_first
     - avoid_annotating_with_dynamic
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catching_errors
@@ -86,6 +85,7 @@ linter:
     - use_string_buffers
     - use_test_throws_matchers
     - use_to_and_as_if_applicable
+    - require_trailing_commas
  
 # Additional information about this file can be found at
 # https://dart.dev/guides/language/analysis-options

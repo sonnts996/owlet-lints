@@ -15,18 +15,18 @@ dev_dependencies:
 ### Add this line to your ``analysis_options.yaml`` file.
 
 ```yaml
-    include: package:owlet_lints/default_options.yaml
+    include: package:owlet_lints/default.yaml
 ```
 
 ### List of Lint Options:
 
-  - ``package:owlet_lints/default_options.yaml``
+  - ``package:owlet_lints/default.yaml``
     - Default Option
-  - ``package:owlet_lints/published_options.yaml``
+  - ``package:owlet_lints/published.yaml``
     - With Docs linter:
       - package_api_docs
       - public_member_api_docs
-  - ``package:owlet_lints/hard_options.yaml``
+  - ``package:owlet_lints/hard.yaml``
     - Harder linter's options
 
 ### Example:
@@ -45,7 +45,7 @@ dev_dependencies:
 # (the recommended set includes the core lints).
 # The core lints are also what is used by pub.dev for scoring packages.
 
-include: package:owlet_lints/default_options.yaml
+include: package:owlet_lints/default.yaml
 
 # Uncomment the following section to specify additional rules.
 
